@@ -1,4 +1,4 @@
-const scrollButton = document.querySelectorAll(".menu__side-link");
+const scrollButton = document.querySelectorAll('a[href*="#"]');
 
 scrollButton.forEach(function(item){
     item.addEventListener('click', function(event){
