@@ -1,5 +1,6 @@
 @import "mixins/breakepoints.scss";
 @import "vars.scss";
+@import "mixins/flex.scss";
 
 html {
     box-sizing: border-box;
@@ -54,6 +55,9 @@ a, a:active, a:visited a:active{
   @include mobile {
     padding: 30px 0px 20px 0px;
   }
+}
+.hidden {
+  display: none !important;
 }
 
 

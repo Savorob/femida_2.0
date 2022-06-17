@@ -92,31 +92,55 @@
 					<div class="services__content">
 						<h1 id="title2" class="title services__title">Услуги</h1>
 						<ul class="services-list list-reset">
-							<li class="services-list__item">
+							<li data-modal-button="modal-1" class="services-list__item">
 								<div class="services-item">
 									<img class="services-item__icon" src="images/document.png" alt="Молот">
 									<h3 class="services-item__title">Составление процессуальных <br>документов</h3>
 								</div>
 							</li>
-							<li class="services-list__item">
+							<li data-modal-button="modal-2" class="services-list__item">
 								<div class="services-item">
 									<img class="services-item__icon" src="images/lawer.png" alt="Молот">
 									<h3 class="services-item__title">Досудебное урегулирование <br>споров</h3>
 								</div>
 							</li>
-							<li class="services-list__item">
+							<li data-modal-button="modal-3" class="services-list__item">
 								<div class="services-item">
 									<img class="services-item__icon" src="images/hummer.png" alt="Молот">
 									<h3 class="services-item__title">Представительство <br>в суде</h3>
 								</div>
 							</li>
-							<li class="services-list__item">
+							<li data-modal-button="modal-4" class="services-list__item">
 								<div class="services-item">
 									<img class="services-item__icon" src="images/dispute.png" alt="Молот">
 									<h3 class="services-item__title">Юридические <br>консультации</h3>
 								</div>
 							</li>
 						</ul>
+						<div id="modal-1" data-modal class="services-overlay hidden">
+							<div class="services-modal">
+									<p class="services-modal__text">Указанная услуга распространяется как для внесудебной, досудебной, так и судебной стадии. Стоимость услуги рассчитывается индивидуально.</p>
+									<button data-modal-close class="services-modal__btn">Закрыть окно</button>
+							</div>
+						</div>
+						<div id="modal-2" data-modal class="services-overlay hidden">
+							<div class="services-modal">
+									<p class="services-modal__text">Данная услуга оказывается как отдельно, так и в совокупности с последующим ведением дела в суде. Стоимость зависит от сложности представленного дела.</p>
+									<button data-modal-close class="services-modal__btn">Закрыть окно</button>
+							</div>
+						</div>
+						<div id="modal-3" data-modal class="services-overlay hidden">
+							<div class="services-modal">
+									<p class="services-modal__text">Стоимость представительства клиента в суде зависит от сложности разрешения правового вопроса, а также судебной инстанции, на которой находится дело.</p>
+									<button data-modal-close class="services-modal__btn">Закрыть окно</button>
+							</div>
+						</div>
+						<div id="modal-4" data-modal class="services-overlay hidden">
+							<div class="services-modal">
+									<p class="services-modal__text">Чтобы получить предварительную бесплатную юридическую консультацию, позвоните по телефону, указанному на сайте. Стоимость последующей письменной консультации зависит от сложности представленного дела.</p>
+									<button data-modal-close class="services-modal__btn">Закрыть окно</button>
+							</div>
+						</div>
 						<div class="centered">
 							<img src="images/figura3.svg" alt="arrow" class="arrow">
 						</div>
@@ -220,5 +244,6 @@
 		<script src="js/button_up.js"></script>
 		<script src="js/menu_btn.js"></script>
 		<script src="js/smoothScroll.js"></script>
+		<script src="js/modalCards.js"></script>
     </body>
 </html>
