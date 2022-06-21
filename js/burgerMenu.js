@@ -15,7 +15,7 @@ menuLinks.forEach(function(item){
         menuBtn.classList.remove("menu-btn_active");
     })
 })
-//Закрытие по клику вне бургер меню
+//Закрытие по клику вне бургер менюпше
 document.addEventListener('click', function(e) {
     const click = e.composedPath().includes(burgerMenu);
 
