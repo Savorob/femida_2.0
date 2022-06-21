@@ -1,4 +1,4 @@
-const scrollButton = document.querySelectorAll('a[href*="#"]');
+const scrollButton = document.querySelectorAll('a[href="#"]');
 
 scrollButton.forEach(function(item){
     item.addEventListener('click', function(event){
